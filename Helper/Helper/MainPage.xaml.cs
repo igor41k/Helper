@@ -22,9 +22,15 @@ namespace Helper
     /// </summary>
     public sealed partial class MainPage : Page
     {
+        
         public MainPage()
         {
-            this.InitializeComponent();
+            this.InitializeComponent();            
+        }
+
+        private void buttom_click(object sender, RoutedEventArgs e)
+        {
+            
         }
     }
 }
